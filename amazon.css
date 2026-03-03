@@ -1,0 +1,337 @@
+*{
+    margin:0;
+   font-family: Arial, Helvetica, sans-serif;
+   border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 113px;
+   
+    margin:1px;
+    padding: 1px 8px 0px 6px;
+    background-image: url("amazon.png");
+    background-size: cover;
+}
+.location{
+    margin: 25px 12px 0px 0px;
+    height: 18px;
+    width: 15px;
+    
+}
+#deliver{
+    height:14px;
+    width:100px;
+    font: size 12px;
+    margin-top: 10px;
+    transition: all 0s linear 0s;
+    border-width: 0px;
+    border-color: black;
+    border-style:solid;
+  
+}
+#india{
+    font-size: large;
+    font-weight: bold;
+}
+#all{
+   
+    margin:6px 0px 6px 2px;
+    width: 50px;
+    transition:borderanimate infinite linear 0s
+    
+}
+
+    @keyframes borderanimate{
+        from{
+            border-width:0px;
+            border-color: black;
+        }
+        to{
+            border-width:4px;
+            border-color:yellow;
+        }
+
+}
+
+
+#search{
+    
+    margin:6px 0px 6px ;
+    width:465.03px;
+    font-weight:light;
+    font-size: large;
+    border-width:0px;
+    border-color:black;
+    border-style: solid;
+    transition:all 2ms;
+}
+#search_icon{
+    display: flex;
+    margin-top: 7px;
+    background-color: rgb(255,153,0);
+    margin-bottom:7px ;
+    width:45px;
+   padding-top: 16px;
+   padding-left: 10px;
+   padding-bottom: 4px;
+   
+    justify-content: center;
+    border:0px solid black;
+
+}
+#sign{
+   
+    width:150px;
+    height:50px;
+    padding-top:12px;
+    margin-left: 20px;
+    border:0px solid black;
+
+}
+p2{
+    font-size: small;
+
+}
+   p1{
+    font-weight: bold;
+   } 
+   #return{
+   padding-top:12px;
+    border:0px solid black;
+   }
+   p3{
+    font-size: small;
+   }
+   p4{
+    font-weight: bold;
+   }
+   #cart{
+    margin-top: 16px;
+    width: 50px;
+   }
+   #_cart{
+    margin-top:40px;
+    font-size: large;
+    font-weight: bold;
+    border:0px solid black;
+
+   }
+   #space{
+    display: flex;
+    flex-grow: 0;
+   }
+   #second{
+    display: flex;
+    flex-grow: 0;
+   }
+   #last{
+    display: flex;
+    flex-grow: 0;
+    border:0px solid black;
+   }
+   img{
+    margin-top: 12px;
+   }
+  
+   
+   #language{
+    display: flex;
+    flex-grow: 0;
+    border:0px solid black;
+
+   }
+   #en{
+    padding-top:30px;
+    padding-left: 10px;
+
+   }
+   #search:hover{
+    border-width: 4px;
+    border-color: yellow;
+   }
+   select:hover{
+    border-width: 4px;
+    border-color: yellow;
+   }
+   #search_icon:hover{
+    border-width: 4px;
+    border-color: yellow;
+
+   }
+   #box{
+    border:0px solid black;
+    display:inline-flex;
+   }
+   #box:hover{
+    border-width:2px;
+    border-color: white;
+   }
+   #language:hover{
+    border:2px solid white;
+
+   }
+   #sign:hover{
+    border:2px solid white;
+   }
+   #return:hover{
+    border:2px solid white;
+   }
+   #last:hover{
+    border:2px solid white;
+   }
+   #navbar_{
+    height: 39px;
+    background-color: rgba(15,17,40,0.8);
+    display:flex;
+   }
+   p10{
+    color :white;
+    font-weight:bold;
+    padding-left: 6px;
+    
+   }
+   #list{
+    display:flex;
+   padding-top: 10px;
+   transition: all 2ms linear 0s;
+   border:0px solid black;
+   padding:10 9px 0px 9px;
+
+   }
+   #list:hover{
+    border:2px solid white;
+   }
+   #deal{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 550;
+    border:0px solid black;
+    transition:all 2ms linear 0s;
+   
+
+   }
+   #deal:hover{
+    border:2px solid white;
+   }
+   #service{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 550;
+    border:0px solid black;
+    transition:all 2ms linear 0s;
+    text-transform: capitalize;
+   
+
+   }
+   #service:hover{
+    border:2px solid white;
+   }
+   #registry{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 550;
+    border:0px solid black;
+    transition:all 2ms linear 0s;
+    text-transform: capitalize;
+   }
+   #registry:hover{
+    border:2px solid white;
+   }
+   #gift{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 550;
+    border:0px solid black;
+    transition:all 2ms linear 0s;
+    text-transform: capitalize;
+   }
+   #gift:hover{
+    border:2px solid white;
+   }
+   #sell{
+    color:white;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 550;
+    border:0px solid black;
+    transition:all 2ms linear 0s;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: center;
+   }
+   #sell:hover{
+    border:2px solid white;
+   }
+   #ama{
+    text-decoration: none;
+   }
+   #welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+   }
+   
+   
+   #fr{
+    display: flex;
+   }
+  #sr{
+    display: flex;
+  }
+ .link{
+    text-decoration:none;
+    color:black;
+ }
+ #see{
+    margin-top: 50px;
+    text-decoration:none;
+    color:black;
+ }
+ #row1{
+    display: inline-block;
+ }
+ #row1{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ #fr{
+    display:flex;
+    justify-content: space-evenly;
+ }
+ #sr{
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .msd{
+    text-transform: capitalize;
+    text-transform: none;
+    color:black;
+    text-decoration: none;
+ }
+footer{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+   align-items: center;
+    height:200px;
+    background-color: #0f1111;
+    color:white;
+}
+#india{
+    color:white;
+    margin-left:20px;
+}
